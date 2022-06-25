@@ -32,10 +32,11 @@ public class AbstractTestSuite {
 		appObj.Page.quitBrowser();
 	}
 	
+	// defining behavior at the beginning of every test, when the browser opens
 	public AppObj startBrowser() {
+		// navigate to the URL of the Landing Page and maximize the window
 		appObj.LandingPage.open();
 		appObj.Page.maximizeWindow();
-		appObj.Page.visit("https://formy-project.herokuapp.com");
 		return appObj;
 	}
 }
