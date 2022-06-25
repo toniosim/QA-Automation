@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package com.mycompany.testsuites.testapp;
 
 import org.testng.annotations.*;
 import org.testng.asserts.*;
