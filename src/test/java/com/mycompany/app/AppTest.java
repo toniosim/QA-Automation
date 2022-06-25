@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.mycompany.app.pages.LandingPage;
 import com.mycompany.app.pages.Page;
-import com.mycompany.framework.abstracttestsuite.AbstractTestSuite;
+import com.mycompany.testsuites.abstracttestsuite.AbstractTestSuite;
 
 /**
  * Unit test for simple App.

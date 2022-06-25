@@ -1,4 +1,4 @@
-package com.mycompany.framework.abstracttestsuite;
+package com.mycompany.testsuites.abstracttestsuite;
 
 import java.lang.reflect.Method;
 
