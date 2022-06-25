@@ -18,16 +18,16 @@ public class AbstractTestSuite {
 		return appObj;
 	}
 	
-	// we might have to use BeforeMethod tag here bc all our tests are different methods
 	@BeforeTest
 	public void abstractBeforeTest() {
 		appObj = startBrowser();
+		// test message
 		System.out.println("I'MA START THIS TEST");
 	}
 	
-	// we might have to use AfterMethod tag here bc all our tests are different methods
 	@AfterTest
 	public synchronized void abstractTearDownAFterTest() {
+		// test message
 		System.out.println("I'MA END THIS TEST");
 		appObj.Page.quitBrowser();
 	}

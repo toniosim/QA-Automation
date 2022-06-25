@@ -1,4 +1,4 @@
-package com.mycompany.framework.objects;
+package com.mycompany.app.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

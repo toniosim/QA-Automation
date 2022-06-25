@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.mycompany.framework.objects.ElementBase;
-import com.mycompany.framework.objects.Page;
 
 public class LandingPage extends Page {
 

@@ -7,8 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.mycompany.app.pages.LandingPage;
+import com.mycompany.app.pages.Page;
 import com.mycompany.framework.abstracttestsuite.AbstractTestSuite;
-import com.mycompany.framework.objects.Page;
 
 /**
  * Unit test for simple App.
